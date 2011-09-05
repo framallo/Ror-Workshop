@@ -18,5 +18,9 @@ To connect here you need to run:
 === Vim
 
 
+== Resorces
+
+- http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+- http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html
 
 
