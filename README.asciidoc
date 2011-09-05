@@ -21,6 +21,13 @@ To connect here you need to run:
 == Lista de comandos
 
   rsync -aP ts@192.168.1.71:.rvm/ /home/ts/.rvm
+  cd /home/ts/ror_workshop/rails/ror/
+  source .rvmrc
+  rails s
+  rails generate model person name:string description:text address:string
+  rake db:migrate
+  rails c
+  #  Person
 
 == Resorces
 
