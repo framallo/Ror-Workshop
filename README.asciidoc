@@ -1,0 +1,15 @@
+= Ruby on Rails Talk =
+:author: Federico Ramallo
+:email: framallo@gmail.com
+:homepage: http://tangosource.com
+
+
+== Introduccion 
+
+To connect here you need to run:
+  
+  ssh ts@192.168.2.111
+
+
+
+
