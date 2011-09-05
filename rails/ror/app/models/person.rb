@@ -3,6 +3,7 @@ class Person < ActiveRecord::Base
 
   validates :name, :presence => true
   validates_format_of :email, :with => EMAIL_PATTERN
+  validates_uniqueness_of :email
 
 
 end
