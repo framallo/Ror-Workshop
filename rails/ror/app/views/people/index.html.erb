@@ -5,6 +5,7 @@
     <th>Name</th>
     <th>Description</th>
     <th>Address</th>
+    <th>Email</th>
     <th></th>
     <th></th>
     <th></th>
@@ -15,6 +16,7 @@
     <td><%= person.name %></td>
     <td><%= person.description %></td>
     <td><%= person.address %></td>
+    <td><%= person.email %></td>
     <td><%= link_to 'Show', person %></td>
     <td><%= link_to 'Edit', edit_person_path(person) %></td>
     <td><%= link_to 'Destroy', person, confirm: 'Are you sure?', method: :delete %></td>
