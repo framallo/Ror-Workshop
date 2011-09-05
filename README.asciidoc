@@ -18,9 +18,13 @@ To connect here you need to run:
 === Vim
 
 
+== Lista de comandos
+
+  rsync -aP ts@192.168.1.71:.rvm/ /home/ts/.rvm
+
 == Resorces
 
 - http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
 - http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html
-
-
+  
+  
