@@ -8,7 +8,14 @@
 
 To connect here you need to run:
   
-  ssh ts@192.168.2.111
+  ssh ts@192.168.2.114
+
+== Herramientas
+=== Screen
+- Todos los comandos se inician con ^a (control + a)
+- La ayuda es ^a ?
+
+=== Vim
 
 
 
