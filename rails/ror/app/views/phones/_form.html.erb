@@ -20,6 +20,10 @@
     <%= f.number_field :extension %>
   </div>
   <div class="field">
+    <%= f.label :city %><br />
+    <%= f.select :city_id, City.all.collect {|c| [c.name, c.id]} %><br />
+  </div>
+  <div class="field">
     <%= f.label :category %><br />
     <%= f.select :category_id, @categories %><br />
   </div>
