@@ -57,7 +57,8 @@ class PeopleController < ApplicationController
   # PUT /people/1.json
   def update
     @person = Person.find(params[:id])
-
+puts params[:person][:phone]['category_id'].class
+puts params[:person][:phone]['person_id'].class
     respond_to do |format|
       if @person.update_attributes(params[:person])
         format.html { redirect_to @person, notice: 'Person was successfully updated.' }

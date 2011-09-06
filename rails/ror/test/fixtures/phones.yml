@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/Fixtures.html
+
+one:
+  number: 1
+  extension: 1
+  category_id: 1
+  person_id: 1
+
+two:
+  number: 1
+  extension: 1
+  category_id: 1
+  person_id: 1

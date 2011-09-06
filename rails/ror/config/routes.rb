@@ -1,4 +1,8 @@
 Ror::Application.routes.draw do
+  resources :categories
+
+  resources :phones
+
   resources :people
 
   # The priority is based upon order of creation:
