@@ -1,4 +1,6 @@
 Ror::Application.routes.draw do
+  resources :cities
+
   resources :categories
 
   resources :phones
