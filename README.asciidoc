@@ -20,21 +20,32 @@ To connect here you need to run:
 
 == Lista de comandos
 
-  rsync -aP ts@192.168.1.71:.rvm/ /home/ts/.rvm
-  cd /home/ts/ror_workshop/rails/ror/
-  source .rvmrc
-  rails s
-  rails generate model person name:string description:text address:string
+  cd ~/ror_workshop/rails/ror
+
+=== Rails
+
+  rvm reload
+  rails server
+  rails console
+  rails generate scaffold category name:string
   rake db:migrate
-  rails c
-  #  Person
-  rsync -aP ts@192.168.1.71:ror_workshop/ /home/ts/ror_workshop
+  rake db:create
+
+=== Git
+
+  git commit -a -m ''
+  git add <file>
+  git reset --hard 
+  git status ( gs )  
+  gt branch ( gb )
+  git config --global user.name 'Mi Nombre'
+  git config --global user.email 'framallo@gmail.com'
 
 == Resorces
 
-- http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
-- http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html
-- http://guides.rubyonrails.org
-- 
+  http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+  http://blog.rubybestpractices.com/posts/gregory/022-rbp-now-open.html
+  http://guides.rubyonrails.org
+
   
   
