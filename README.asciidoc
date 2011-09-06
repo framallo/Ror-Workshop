@@ -25,6 +25,7 @@ To connect here you need to run:
 === Rails
 
   rvm reload
+  rvm current #> ruby-1.9.2-p180@rails
   rails server
   rails console
   rails generate scaffold category name:string
